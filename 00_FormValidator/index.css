@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --success-color:#2ecc71;
+    --error-color:#e74c3c;
+}
+html{
+    /* font-size: 62.5%; */
+}
+body{
+    margin: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* padding: 1.5rem; */
+    margin: 1.5rem 0rem;
+    /* padding: 30px 40px ; */
+    
+    
+}
+.formContainer{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 100px;
+    width: ; */
+    border: 3px solid black;
+    max-width: 400px;
+    margin: 8rem auto;
+    /* padding: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    /* font-weight: ; */
+    background-color: white;
+
+}
+.title{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.formEle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* align-items: start; */
+    /* align-items: center; */
+    width: 70%;
+    position: relative;
+}
+
+
+.formEle label{
+    /* font-size: 1px;
+     */
+    /* font-weight: 0; */
+    /* display: block; */
+    font-size: 1rem;
+    color: #777;
+}
+
+.formEle input{
+    /* width: 70%; */
+    /* height: 1.7rem; */
+    border: 2px solid #f0f0f0;
+    /* width: 100%; */
+    padding: .7rem;
+    font-size: 14px;
+}
+
+.formEle input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.formEle.success input{
+    border-color: var(--success-color);
+}
+
+.formEle.error input{
+    border-color: var(--error-color);
+}
+
+.formEle small{
+    /* color: white; */
+    color: var(--error-color);
+    /* position: absolute; */
+    /* bottom: -15px;; */
+    /* left: 0; */
+    visibility: hidden;
+}
+
+.formEle.error small{
+    visibility: visible;
+}
+
+.btn{
+    cursor: pointer;
+    width: 70%;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid #3498db;
+    background-color: #3498db;
+    border-radius: 4px;
+}
