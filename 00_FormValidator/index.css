@@ -28,7 +28,8 @@ body{
     justify-content: center; */
     /* height: 100px;
     width: ; */
-    border: 3px solid black;
+    /* border: 3px solid black;
+     */
     max-width: 400px;
     margin: 8rem auto;
     /* padding: 20px; */
@@ -36,6 +37,7 @@ body{
     font-size: 18px;
     /* font-weight: ; */
     background-color: white;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 
 }
 .title{
@@ -107,4 +109,5 @@ body{
     border: 2px solid #3498db;
     background-color: #3498db;
     border-radius: 4px;
+    margin-bottom: 25px;
 }
