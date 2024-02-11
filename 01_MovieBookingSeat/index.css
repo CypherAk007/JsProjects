@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Fira+Code:wght@300&display=swap');
+/* Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bangers', system-ui;
+}
+
+:root{
+    --color-primary-green:#55c57a;
+    --color-primary-light-green:#7ed56f;
+    --color-primary-dark-green:#28b485;
+    --color-primary-pink:#eb2f64;
+    --color-primary-light-pink:#FF3366;
+    --color-primary-dark-pink:#BA265D;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.45%;
+
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+
+
+.container{
+    background-color: white;
+    background-image: linear-gradient(to right bottom,black,white);
+    max-width: 50rem;
+    margin: 10rem auto;
+    text-align: center;
+    padding: 5rem;
+    box-shadow: 0 3px 100px rgba(0,0,0,0.8);
+
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.movie p{
+    font-size: 3rem;
+    color: var(--color-primary-green);
+}
+.selector{
+    border: 3px solid var(--color-primary-dark-green);
+    padding:0 2rem;
+    font-size: 2rem;
+    color: var(--color-primary-dark-pink);
+}
+.theater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seatsInfo{ 
+    font-size: 1.7rem;
+    color:var(--color-primary-light-pink) ;
+    display:flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+}
+.seatOption{
+    display: flex;
+    gap: .5rem;
+}
+.seat{
+    background-color:white;
+    height: 1.5rem;
+    width: 1.8rem;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.seat.selected {
+    background-color:var(--color-primary-green) ;
+}
+.seat.na {
+    background-color:#444451 ;
+}
+.seat.occupied {
+    background-color:var(--color-primary-pink) ;
+}
+.screen{
+    /* text-align: center; */
+    
+    background-color: #fff;
+    height: 10rem;
+    width:50%;
+    border: 3px solid var(--color-primary-dark-pink);
+    box-shadow:0  3px 50px rgba(0,0,0, 0.7);
+    transform: rotateX(-55deg);
+}
+.seats{
+    /* font-size:; */
+}
+.seats table{
+
+}
+.gap{
+    /* margin: 2px 10px; */
+}
+
+.output{
+    font-size: 2rem;
+    margin: 2rem 1rem;
+}

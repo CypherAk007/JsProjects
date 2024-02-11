@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="movie">
+
+            <p>Pick a Movie: </p>
+            <select class="selector" id="selector">
+                <option value="">-- Choose A Movie --</option>
+                <option value="340">Endgame - &#8377 340</option>
+                <option value="440">Joker - &#8377 440</option>
+                <option value="840">Iron Man - &#8377 840</option>
+                <option value="640">Dr. Strange - &#8377 640</option>
+            </select>
+        </div>
+        <div class="theater">
+            <div class="seatsInfo">
+                <div class="seatOption">
+                    <div class="seat selected"></div>
+                    <p>Selected</p>
+                </div>
+                <div class="seatOption">
+                    <div class="seat na"></div>
+                    <p>N/A</p>
+                </div>
+                <div class="seatOption">
+                    <div class="seat occupied"></div>
+                    <p>Occupied</p>
+                </div>
+            </div>
+            <div class="screen">Screen</div>
+            <div class="seats">
+                <table class="seatsMat" >
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                        <td class="seat na"></td>
+                    </tr>
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                    </tr>
+                    <div class="gap"></div>
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                    </tr>
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                    </tr>
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                    </tr>
+                    <tr>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat occupied"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                        <td class="seat na"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="output">You have selected <span id="quantity">0</span> seats for a price of &#8377 <span id="money">0</span> </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
