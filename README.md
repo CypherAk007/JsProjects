@@ -11,3 +11,10 @@
     - Local Storage
     - Connect Matrix to Table and access Table index[row,col]
     - ![webmovibooking](01_MovieBookingSeat/movieBooking.png)
+
+### Custom Video Player
+- ** Ignored The CSS **
+- Concepts
+    - progressbar link to video
+    - video ele prop
+    - ![customvideoplayer](02_CustomVideoPlayer/img/customVideoPlayer.png)
