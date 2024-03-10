@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chelsea Market', system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --color-primary-green:#55c57a;
+    --color-primary-light-green:#7ed56f;
+    --color-primary-dark-green:#28b485;
+    --color-primary-pink:#eb2f64;
+    --color-primary-light-pink:#FF3366;
+    --color-primary-dark-pink:#BA265D;
+    --color-charoal:#C0C0C0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.45%;
+
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+
+.container{
+    /* background-color: red; */
+    max-width: 100rem;
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading .header{
+    font-size: 4rem;
+    color: var(--color-primary-dark-green);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.main .txt{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+
+}
+.main .calc{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* background-color: #7ed56f; */
+    width: 40rem;
+}
+.main .converter1 {
+    /* background-color: #28b485; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+.main .converter1 .c1{
+    /* background-color: #BA265D; */
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main .converter1 .i1{
+    /* background-color: #BA265D; */
+    cursor: pointer;
+    width: 7rem;
+    height: 4rem;
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main .converter2{
+    /* background-color: #28b485; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+}
+
+.main .converter2 .c2{
+    /* background-color: #BA265D; */
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main .converter2 .i2{
+    /* background-color: #BA265D; */
+    /* min-width: 4rem; */
+    /* border: none; */
+    cursor: pointer;
+    padding: 0 1rem;
+    width: 7rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main .swap{
+    /* background-color: #28b485; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.main .swap .swapbtn{
+    padding: .5rem 1rem;
+    background-color: var(--color-primary-dark-green);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.main .swap .rates{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+    color:var(--color-charoal) ;
+}
