@@ -18,3 +18,9 @@
     - progressbar link to video
     - video ele prop
     - ![customvideoplayer](02_CustomVideoPlayer/img/customVideoPlayer.png)
+
+### Exchange Rate Calculator
+- Concepts
+    - Fetch API
+    - Convertion logic
+    - ![ExchangeRateCalc](03_ExchangeRateCalculator/img/output.png)
