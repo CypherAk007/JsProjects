@@ -24,3 +24,8 @@
     - Fetch API
     - Convertion logic
     - ![ExchangeRateCalc](03_ExchangeRateCalculator/img/output.png)
+
+### DOM Array Methods
+- Concepts
+    - sort, reduce, map, filter
+    - ![ExchangeRateCalc](04_DOMArrayMethods/img/ss.png)
